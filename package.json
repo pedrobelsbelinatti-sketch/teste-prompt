@@ -1,0 +1,13 @@
+{
+  "name": "teste-prompt-monest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Renderização do prompt Handlebars para o teste de Prompt Engineer.",
+  "scripts": {
+    "render": "node scripts/render.js",
+    "check": "node scripts/render.js --check"
+  },
+  "devDependencies": {
+    "handlebars": "^4.7.9"
+  }
+}
